@@ -8,3 +8,94 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  position: relative;
+  width: 950px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat;
+  position: absolute;
+  height: 350px;
+  width: 100%;
+}
+
+.mainContain {
+  display: flex;
+  flex-direction: row;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.side {
+  margin: 25px;
+}
+
+.barreInsta {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.barreInsta > img, .barreInsta > a {
+  display: flex;
+}
+
+.barreInsta button {
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.barreInsta button img {
+  margin-right: 10px;
+}
+
+.barreInsta a {
+  display: flex;
+  flex-basis: content;
+  height: 45px;
+  display: flex;
+  text-decoration: none;
+}
+
+.description {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  padding: 15px 30px;
+  background-size: contain;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 25px;
+}
+
+.google {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.google > img {
+  margin-right: 20px;
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+nav > a {
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 10px;
+}
